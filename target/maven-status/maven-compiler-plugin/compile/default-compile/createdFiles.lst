@@ -1,0 +1,11 @@
+com\lcr\v1\Controladores\PublicacionControlador.class
+com\lcr\v1\Entidades\Categoria.class
+com\lcr\v1\Errores\MyException.class
+com\lcr\v1\Repositorios\PublicacionRepositorio.class
+com\lcr\v1\Servicios\ImagenServicio.class
+com\lcr\v1\Servicios\PublicacionServicio.class
+com\lcr\v1\Entidades\Imagen.class
+com\lcr\v1\LimandoCarterApplication.class
+com\lcr\v1\Controladores\ImagenControlador.class
+com\lcr\v1\Entidades\Publicacion.class
+com\lcr\v1\Repositorios\ImagenRepositorio.class
