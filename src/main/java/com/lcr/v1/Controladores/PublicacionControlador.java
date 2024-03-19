@@ -108,8 +108,8 @@ public class PublicacionControlador {
         }
     }
 
-    @GetMapping("/categoria")
-    public ResponseEntity<List<Publicacion>> listarxCategoria(@RequestParam("categoria") String categoria) throws MyException {
+    @GetMapping("/categoria/{categoria}")
+    public ResponseEntity<List<Publicacion>> listarxCategoria(@PathVariable("categoria") String categoria) throws MyException {
         try {
             List<Publicacion> publicaciones = ps.publicacionesxCategoria(categoria);
             if (publicaciones.isEmpty()) {
