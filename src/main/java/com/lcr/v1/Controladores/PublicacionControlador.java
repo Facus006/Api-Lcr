@@ -4,6 +4,7 @@ import com.lcr.v1.Entidades.Publicacion;
 import com.lcr.v1.Errores.MyException;
 import com.lcr.v1.Servicios.PublicacionServicio;
 import java.util.List;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -19,6 +20,7 @@ import org.springframework.web.multipart.MultipartFile;
 @RestController
 @RequestMapping("/publicacion")
 @CrossOrigin("*")
+@RequiredArgsConstructor
 public class PublicacionControlador {
 
     @Autowired

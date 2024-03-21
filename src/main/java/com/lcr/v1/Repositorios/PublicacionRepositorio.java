@@ -1,6 +1,6 @@
 package com.lcr.v1.Repositorios;
 
-import com.lcr.v1.Entidades.Categoria;
+import com.lcr.v1.Enums.Categoria;
 import com.lcr.v1.Entidades.Publicacion;
 import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;

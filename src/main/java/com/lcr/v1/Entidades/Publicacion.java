@@ -1,5 +1,6 @@
 package com.lcr.v1.Entidades;
 
+import com.lcr.v1.Enums.Categoria;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

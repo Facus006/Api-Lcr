@@ -1,6 +1,6 @@
 package com.lcr.v1.Servicios;
 
-import com.lcr.v1.Entidades.Categoria;
+import com.lcr.v1.Enums.Categoria;
 import com.lcr.v1.Entidades.Imagen;
 import com.lcr.v1.Entidades.Publicacion;
 import com.lcr.v1.Errores.MyException;
