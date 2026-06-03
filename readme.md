@@ -127,7 +127,7 @@ lcr/
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/tu-usuario/lcr.git
+git clone https://github.com/Facus006/Api-Lcr
 cd lcr/v1
 
 # 2. Configurar las variables en application.properties
